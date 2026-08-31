@@ -1,0 +1,22 @@
+{
+	"nodes":[
+		{"id":"banner","type":"text","text":"# 📩 Kit 51 Emails — Funil visual\n\n7 sequências por etapa. 🟢 topo/aquecimento · 🟣 conversão · 🔴 recuperação · 🟠 pós-compra · 🟡 backend. Cada card abre o **canvas da sequência** (email a email).","x":-260,"y":-620,"width":1500,"height":130,"color":"6"},
+		{"id":"hub","type":"file","file":"Laschuk/Kit 51 Emails (EmailHackers).md","x":340,"y":-380,"width":420,"height":220,"color":"6"},
+		{"id":"seq_leadsgratuitos","type":"file","file":"Laschuk/Kit 51 Emails - Swipe/Canvas/2 - Leads Gratuitos.canvas","x":-260,"y":0,"width":340,"height":540,"color":"4"},
+		{"id":"seq_leadsaquecidos","type":"file","file":"Laschuk/Kit 51 Emails - Swipe/Canvas/5 - Leads Aquecidos.canvas","x":180,"y":0,"width":340,"height":280,"color":"4"},
+		{"id":"seq_lancamento","type":"file","file":"Laschuk/Kit 51 Emails - Swipe/Canvas/3 - Lançamento.canvas","x":620,"y":0,"width":340,"height":280,"color":"6"},
+		{"id":"seq_carrinho","type":"file","file":"Laschuk/Kit 51 Emails - Swipe/Canvas/7 - Carrinho Abandonado.canvas","x":620,"y":400,"width":340,"height":280,"color":"1"},
+		{"id":"seq_boasvindas","type":"file","file":"Laschuk/Kit 51 Emails - Swipe/Canvas/6 - Boas-Vindas.canvas","x":1060,"y":0,"width":340,"height":270,"color":"2"},
+		{"id":"seq_upsell","type":"file","file":"Laschuk/Kit 51 Emails - Swipe/Canvas/1 - UpSell 2X.canvas","x":1500,"y":0,"width":340,"height":280,"color":"2"},
+		{"id":"seq_highticket","type":"file","file":"Laschuk/Kit 51 Emails - Swipe/Canvas/4 - High Ticket.canvas","x":1500,"y":540,"width":340,"height":280,"color":"3"}
+	],
+	"edges":[
+		{"id":"e_hub","fromNode":"hub","fromSide":"bottom","toNode":"seq_leadsaquecidos","toSide":"top","color":"6","label":"7 sequências"},
+		{"id":"e1","fromNode":"seq_leadsgratuitos","fromSide":"right","toNode":"seq_leadsaquecidos","toSide":"left","label":"leads grátis → aquece"},
+		{"id":"e2","fromNode":"seq_leadsaquecidos","fromSide":"right","toNode":"seq_lancamento","toSide":"left","label":"aquece → converte"},
+		{"id":"e3","fromNode":"seq_lancamento","fromSide":"bottom","toNode":"seq_carrinho","toSide":"top","color":"1","label":"recupera quem não comprou"},
+		{"id":"e4","fromNode":"seq_lancamento","fromSide":"right","toNode":"seq_boasvindas","toSide":"left","label":"comprou → onboarding"},
+		{"id":"e5","fromNode":"seq_boasvindas","fromSide":"right","toNode":"seq_upsell","toSide":"left","label":"upsell 2x"},
+		{"id":"e6","fromNode":"seq_boasvindas","fromSide":"bottom","toNode":"seq_highticket","toSide":"top","color":"3","label":"ascensão → backend"}
+	]
+}

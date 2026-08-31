@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"id":"banner","type":"text","text":"# 🛒 UpSell 2X — 2 emails\n\nUpsell pós-compra (\"complete seu pedido\") sem novo custo de anúncio. Copy completa: [[1 - UpSell 2X]]","x":0,"y":-220,"width":840,"height":150,"color":"2"},
+		{"id":"e1","type":"file","file":"Laschuk/Kit 51 Emails - Swipe/1 - UpSell 2X.md","subpath":"#Email 1","x":0,"y":0,"width":400,"height":520,"color":"2"},
+		{"id":"e2","type":"file","file":"Laschuk/Kit 51 Emails - Swipe/1 - UpSell 2X.md","subpath":"#Email 2","x":480,"y":0,"width":400,"height":520,"color":"2"}
+	],
+	"edges":[
+		{"id":"x1","fromNode":"e1","fromSide":"right","toNode":"e2","toSide":"left","label":"última chance"}
+	]
+}

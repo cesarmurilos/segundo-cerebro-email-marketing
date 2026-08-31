@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"banner","type":"text","text":"# 🚀 Lançamento — 6 emails\n\nConfirmação de presença converte +103%. Emails 1-4 arrancam micro-compromisso e migram pro WhatsApp; venda só nos 5-6. Copy completa: [[3 - Lançamento]]","x":0,"y":-240,"width":1200,"height":170,"color":"6"},
+		{"id":"e1","type":"file","file":"Laschuk/Kit 51 Emails - Swipe/3 - Lançamento.md","subpath":"#Email 1","x":0,"y":0,"width":400,"height":520,"color":"6"},
+		{"id":"e2","type":"file","file":"Laschuk/Kit 51 Emails - Swipe/3 - Lançamento.md","subpath":"#Email 2","x":480,"y":0,"width":400,"height":520,"color":"6"},
+		{"id":"e3","type":"file","file":"Laschuk/Kit 51 Emails - Swipe/3 - Lançamento.md","subpath":"#Email 3","x":960,"y":0,"width":400,"height":520,"color":"6"},
+		{"id":"e4","type":"file","file":"Laschuk/Kit 51 Emails - Swipe/3 - Lançamento.md","subpath":"#Email 4","x":1440,"y":0,"width":400,"height":520,"color":"6"},
+		{"id":"e5","type":"file","file":"Laschuk/Kit 51 Emails - Swipe/3 - Lançamento.md","subpath":"#Email 5","x":1920,"y":0,"width":400,"height":520,"color":"6"},
+		{"id":"e6","type":"file","file":"Laschuk/Kit 51 Emails - Swipe/3 - Lançamento.md","subpath":"#Email 6","x":2400,"y":0,"width":400,"height":520,"color":"1"}
+	],
+	"edges":[
+		{"id":"x1","fromNode":"e1","fromSide":"right","toNode":"e2","toSide":"left"},
+		{"id":"x2","fromNode":"e2","fromSide":"right","toNode":"e3","toSide":"left"},
+		{"id":"x3","fromNode":"e3","fromSide":"right","toNode":"e4","toSide":"left"},
+		{"id":"x4","fromNode":"e4","fromSide":"right","toNode":"e5","toSide":"left","label":"abre carrinho"},
+		{"id":"x5","fromNode":"e5","fromSide":"right","toNode":"e6","toSide":"left","label":"escassez/fecha"}
+	]
+}

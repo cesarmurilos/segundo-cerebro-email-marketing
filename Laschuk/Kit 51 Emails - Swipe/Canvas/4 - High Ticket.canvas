@@ -1,0 +1,12 @@
+{
+	"nodes":[
+		{"id":"banner","type":"text","text":"# 💎 High Ticket — 2 emails (doc anuncia 3)\n\nApplication funnel: \"aplique / seja selecionado\", preço nunca aparece. Copy completa: [[4 - High Ticket]]","x":0,"y":-220,"width":900,"height":150,"color":"3"},
+		{"id":"e1","type":"file","file":"Laschuk/Kit 51 Emails - Swipe/4 - High Ticket.md","subpath":"#Email 1","x":0,"y":0,"width":400,"height":520,"color":"3"},
+		{"id":"e2","type":"file","file":"Laschuk/Kit 51 Emails - Swipe/4 - High Ticket.md","subpath":"#Email 2","x":480,"y":0,"width":400,"height":520,"color":"3"},
+		{"id":"missing","type":"text","text":"## ⚠️ Email 3 — faltando na origem\nO doc diz \"programe estes 3 emails\", mas só traz 2. Falta o email de urgência/fechamento da candidatura.","x":960,"y":0,"width":400,"height":220,"color":"1"}
+	],
+	"edges":[
+		{"id":"x1","fromNode":"e1","fromSide":"right","toNode":"e2","toSide":"left"},
+		{"id":"x2","fromNode":"e2","fromSide":"right","toNode":"missing","toSide":"left"}
+	]
+}

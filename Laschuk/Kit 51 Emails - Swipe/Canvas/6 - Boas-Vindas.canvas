@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"banner","type":"text","text":"# 👋 Boas-Vindas — 5 emails (doc anuncia 6)\n\nPico de atenção pós-compra → soap opera + \"responde este email\" (engajamento/entrega) + venda de mentoria no fim. Copy completa: [[6 - Boas-Vindas]]","x":0,"y":-240,"width":1200,"height":170,"color":"2"},
+		{"id":"e1","type":"file","file":"Laschuk/Kit 51 Emails - Swipe/6 - Boas-Vindas.md","subpath":"#Email 1","x":0,"y":0,"width":400,"height":1880,"color":"2"},
+		{"id":"e2","type":"file","file":"Laschuk/Kit 51 Emails - Swipe/6 - Boas-Vindas.md","subpath":"#Email 2","x":480,"y":0,"width":400,"height":600,"color":"2"},
+		{"id":"e3","type":"file","file":"Laschuk/Kit 51 Emails - Swipe/6 - Boas-Vindas.md","subpath":"#Email 3","x":960,"y":0,"width":400,"height":600,"color":"2"},
+		{"id":"e4","type":"file","file":"Laschuk/Kit 51 Emails - Swipe/6 - Boas-Vindas.md","subpath":"#Email 4","x":1440,"y":0,"width":400,"height":1040,"color":"2"},
+		{"id":"e5","type":"file","file":"Laschuk/Kit 51 Emails - Swipe/6 - Boas-Vindas.md","subpath":"#Email 5","x":1920,"y":0,"width":400,"height":1320,"color":"2"},
+		{"id":"missing","type":"text","text":"## ⚠️ Email 6 — faltando na origem\nO material anuncia 6, mas só traz 5. Falta o CTA final de conversão da mentoria.","x":2400,"y":0,"width":400,"height":220,"color":"1"}
+	],
+	"edges":[
+		{"id":"x1","fromNode":"e1","fromSide":"right","toNode":"e2","toSide":"left"},
+		{"id":"x2","fromNode":"e2","fromSide":"right","toNode":"e3","toSide":"left"},
+		{"id":"x3","fromNode":"e3","fromSide":"right","toNode":"e4","toSide":"left"},
+		{"id":"x4","fromNode":"e4","fromSide":"right","toNode":"e5","toSide":"left"},
+		{"id":"x5","fromNode":"e5","fromSide":"right","toNode":"missing","toSide":"left"}
+	]
+}

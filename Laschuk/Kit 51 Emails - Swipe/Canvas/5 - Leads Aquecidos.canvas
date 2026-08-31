@@ -1,0 +1,34 @@
+{
+	"nodes":[
+		{"id":"banner","type":"text","text":"# 🔥 Leads Aquecidos — 14 emails\n\nAquecimento/pré-lançamento. Gamificação por pontos = fachada; o ganho real é deliverability (forçar reply/abertura) + vender identidade. Copy completa: [[5 - Leads Aquecidos]]","x":0,"y":-260,"width":1400,"height":180,"color":"4"},
+		{"id":"e1","type":"file","file":"Laschuk/Kit 51 Emails - Swipe/5 - Leads Aquecidos.md","subpath":"#Email 1","x":0,"y":0,"width":400,"height":520,"color":"4"},
+		{"id":"e2","type":"file","file":"Laschuk/Kit 51 Emails - Swipe/5 - Leads Aquecidos.md","subpath":"#Email 2","x":480,"y":0,"width":400,"height":520,"color":"4"},
+		{"id":"e3","type":"file","file":"Laschuk/Kit 51 Emails - Swipe/5 - Leads Aquecidos.md","subpath":"#Email 3","x":960,"y":0,"width":400,"height":520,"color":"4"},
+		{"id":"e4","type":"file","file":"Laschuk/Kit 51 Emails - Swipe/5 - Leads Aquecidos.md","subpath":"#Email 4","x":1440,"y":0,"width":400,"height":520,"color":"4"},
+		{"id":"e5","type":"file","file":"Laschuk/Kit 51 Emails - Swipe/5 - Leads Aquecidos.md","subpath":"#Email 5","x":1920,"y":0,"width":400,"height":520,"color":"4"},
+		{"id":"e6","type":"file","file":"Laschuk/Kit 51 Emails - Swipe/5 - Leads Aquecidos.md","subpath":"#Email 6","x":2400,"y":0,"width":400,"height":520,"color":"4"},
+		{"id":"e7","type":"file","file":"Laschuk/Kit 51 Emails - Swipe/5 - Leads Aquecidos.md","subpath":"#Email 7","x":2880,"y":0,"width":400,"height":520,"color":"4"},
+		{"id":"e8","type":"file","file":"Laschuk/Kit 51 Emails - Swipe/5 - Leads Aquecidos.md","subpath":"#Email 8","x":3360,"y":0,"width":400,"height":520,"color":"4"},
+		{"id":"e9","type":"file","file":"Laschuk/Kit 51 Emails - Swipe/5 - Leads Aquecidos.md","subpath":"#Email 9","x":3840,"y":0,"width":400,"height":520,"color":"4"},
+		{"id":"e10","type":"file","file":"Laschuk/Kit 51 Emails - Swipe/5 - Leads Aquecidos.md","subpath":"#Email 10","x":4320,"y":0,"width":400,"height":520,"color":"4"},
+		{"id":"e11","type":"file","file":"Laschuk/Kit 51 Emails - Swipe/5 - Leads Aquecidos.md","subpath":"#Email 11","x":4800,"y":0,"width":400,"height":520,"color":"4"},
+		{"id":"e12","type":"file","file":"Laschuk/Kit 51 Emails - Swipe/5 - Leads Aquecidos.md","subpath":"#Email 12","x":5280,"y":0,"width":400,"height":520,"color":"4"},
+		{"id":"e13","type":"file","file":"Laschuk/Kit 51 Emails - Swipe/5 - Leads Aquecidos.md","subpath":"#Email 13","x":5760,"y":0,"width":400,"height":520,"color":"3"},
+		{"id":"e14","type":"file","file":"Laschuk/Kit 51 Emails - Swipe/5 - Leads Aquecidos.md","subpath":"#Email 14","x":6240,"y":0,"width":400,"height":520,"color":"1"}
+	],
+	"edges":[
+		{"id":"x1","fromNode":"e1","fromSide":"right","toNode":"e2","toSide":"left"},
+		{"id":"x2","fromNode":"e2","fromSide":"right","toNode":"e3","toSide":"left"},
+		{"id":"x3","fromNode":"e3","fromSide":"right","toNode":"e4","toSide":"left"},
+		{"id":"x4","fromNode":"e4","fromSide":"right","toNode":"e5","toSide":"left"},
+		{"id":"x5","fromNode":"e5","fromSide":"right","toNode":"e6","toSide":"left"},
+		{"id":"x6","fromNode":"e6","fromSide":"right","toNode":"e7","toSide":"left","label":"contagem regressiva"},
+		{"id":"x7","fromNode":"e7","fromSide":"right","toNode":"e8","toSide":"left"},
+		{"id":"x8","fromNode":"e8","fromSide":"right","toNode":"e9","toSide":"left"},
+		{"id":"x9","fromNode":"e9","fromSide":"right","toNode":"e10","toSide":"left"},
+		{"id":"x10","fromNode":"e10","fromSide":"right","toNode":"e11","toSide":"left"},
+		{"id":"x11","fromNode":"e11","fromSide":"right","toNode":"e12","toSide":"left"},
+		{"id":"x12","fromNode":"e12","fromSide":"right","toNode":"e13","toSide":"left"},
+		{"id":"x13","fromNode":"e13","fromSide":"right","toNode":"e14","toSide":"left","label":"véspera/evento"}
+	]
+}
